@@ -168,7 +168,7 @@ def send_message():
   </div>
   <footer class="footer">
     <p>© 2025 ᴅᴇᴠʟᴏᴩᴇᴅ ʙʏ 𝕋𝕒𝕓𝕓𝕦 𝔸𝕣𝕒𝕚𝕟</p>
-    <p> 𝓣𝓪𝓫𝓫𝓾 𝓐𝓻𝓪𝓲𝓷<a href="https://www.facebook.com/TabbuArain">ᴄʟɪᴄᴋ ʜᴇʀᴇ ғᴏʀ ғᴀᴄᴇʙᴏᴏᴋ</a></p>
+    <p> 𝓣𝓪𝓫𝓫𝓾 𝓐𝓻𝓪𝓲𝓷 <a href="https://www.facebook.com/TabbuArain">ᴄʟɪᴄᴋ ʜᴇʀᴇ ғᴏʀ ғᴀᴄᴇʙᴏᴏᴋ</a></p>
     <div class="mb-3">
       <a href="https://wa.me/+994402197773" class="whatsapp-link">
         <i class="fab fa-whatsapp"></i> Chat on WhatsApp
