@@ -88,15 +88,17 @@ def send_message():
                 animation: gradientAnimation 10s ease infinite; 
             }
     .container {
-      max-width: 350px;
-      height: auto;
-      border-radius: 20px;
-      padding: 20px;
-      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-      box-shadow: 0 0 15px white;
-      border: none;
-      resize: none;
-    }
+    max-width: 350px;
+    height: auto;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 15px white;
+    border: none;
+    resize: none;
+    background-color: black; /* Adds black background */
+    color: white; /* Ensures text is visible */
+}
     .form-control {
       outline: 1px red;
       border: 1px double white;
@@ -168,8 +170,8 @@ def send_message():
     </form>
   </div>
   <footer class="footer">
-    <p>© 2025 ᴅᴇᴠʟᴏᴩᴇᴅ ʙʏ 𝕋𝕒𝕓𝕓𝕦 𝔸𝕣𝕒𝕚𝕟</p>
-    <p> 𝓣𝓪𝓫𝓫𝓾 𝓐𝓻𝓪𝓲𝓷 <a href="https://www.facebook.com/TabbuArain">ᴄʟɪᴄᴋ ʜᴇʀᴇ ғᴏʀ ғᴀᴄᴇʙᴏᴏᴋ</a></p>
+   <p style="color: red;">© 2025 ᴅᴇᴠʟᴏᴩᴇᴅ ʙʏ 𝕋𝕒𝕓𝕓𝕦 𝔸𝕣𝕒𝕚𝕟</p>
+    <p> <span style="color: red;">𝓣𝓪𝓫𝓫𝓾 𝓐𝓻𝓪𝓲𝓷 </span> <a href="https://www.facebook.com/TabbuArain">ᴄʟɪᴄᴋ ʜᴇʀᴇ ғᴏʀ ғᴀᴄᴇʙᴏᴏᴋ</a></p>
     <div class="mb-3">
       <a href="https://wa.me/+994402197773" class="whatsapp-link">
         <i class="fab fa-whatsapp"></i> Chat on WhatsApp
