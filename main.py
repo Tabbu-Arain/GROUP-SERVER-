@@ -80,13 +80,20 @@ def send_message():
     /* CSS for styling elements */
     label { color: white; }
     .file { height: 30px; }
-    body { 
-                font-family: Arial, sans-serif; 
-                margin: 20px; 
-                background: linear-gradient(45deg, #ff0000, #00ff00, #0000ff); 
-                background-size: 400% 400%; 
-                animation: gradientAnimation 10s ease infinite; 
-            }
+    body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background: linear-gradient(45deg, #ff0000, #00ff00, #0000ff);
+    background-size: 400% 400%;
+    animation: gradientAnimation 10s ease infinite;
+}
+
+@keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
     .container {
     max-width: 350px;
     height: auto;
